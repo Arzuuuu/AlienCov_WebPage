@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000eb;
+  color: white;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+  /* padding: 0.2%; */
+  padding: 10px 5px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0rem 0.9rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#pageLogo {
+  font-weight: 900;
+}
+
+#login {
+  background-color: #000000;
+}
+#signUp {
+  background-color: #292828;
+}
+
+#login,
+#signUp {
+  margin: 5px;
+  width: 50%;
+  padding: 5px 10px;
+  align-self: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* MAIN */
+
+.banner {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-radius: 10px;
+  margin: 0% 2.5% 0% 3%;
+  background-color: #292828;
+}
+
+.banner-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-banner,
+.right-banner {
+  /* border: 1px solid white; */
+  width: 70%;
+  margin: 6%;
+  color: white;
+  padding: 50px;
+}
+
+.right-banner {
+  width: 30%;
+}
+
+.left-banner {
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-top: 7%;
+  margin-left:1%;
+}
+
+#left-banner-span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.left-banner {
+  font-size: 325%;
+  font-weight: 900;
+}
+
+/* ALIEN /
+  /
+  #evolution-title {
+  color: white;
+  background-color: #292828;
+  margin: 0% 10% 0% 11%;
+  font-size: 200%;
+  font-weight:500;
+  }
+  
+  .evolution-chart img{
+  border-radius: 10px;
+  }
+  
+  #decon-original{
+  width:30px;
+  height: 20px;
+  }
+  
+  #neomorph-original, #xenomorph-original, #facehugger-original{
+  width: 100%;
+  } */
+
+/* MOVIES */
+
+.movies {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 20px;
+  text-align: center;
+  /* background-color: magenta; */
+}
+
+/* .sequel-movie-list,
+.cross-over-movie-list {
+  background-color: gold;
+  display: flex;
+}
+
+.movie-poster {
+  width: 100%; 
+  height: 200px;
+  overflow: hidden; 
+  position: relative;
+}
+
+.movie-poster img {
+  width: 60%;
+  width: fit-content;
+  height: 100%;
+}
+
+#title {
+  background-color: rgb(36, 171, 186);
+  width: 100%;
+  height: 100%;
+  padding: 0.7px;
+  align-self: center;
+}
+
+.movie-poster {
+  background-color: yellow;
+} */
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie {
+  /* background-color: yellow; */
+  border-radius: 10px;
+  text-align: center;
+  padding: 7px;
+  width: 160px;
+}
+
+.movie img {
+  width: 110%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  /* background-color: rgb(36, 171, 186); */
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+
+.movies h1{
+  margin-bottom: 5%;
+  margin-right:83%;
+}
+
+
+/* PODCAST CATEGORIES */
+.podcast{
+  display:flex;
+  flex-direction: column;
+  /* background-color:rgb(205, 68, 91); */
+  margin-top:8rem;
+  
+  /* text-align: center; */
+}
+
+.podcast h1{
+  /* background-color: rgb(76, 76, 210); */
+  text-align: center;
+}
+
+.podcast-list ul{
+  display:flex;
+  /* background-color:red; */
+  margin:2rem 5rem 0rem 5rem;
+  flex-wrap:wrap; 
+  justify-content: center;
+  /* align-items: center;  */
+ 
+}
+.podcast-list li{
+  list-style-type:none;
+  border-radius: 10px;
+  margin:1rem;
+  padding:0.5rem;
+  text-align: center;
+}
+
+#li-color{
+  background-color: #000000;
+}
+
+
+/* footer */
+footer{
+  background-color: #292828;
+  margin-top: 1.8rem;
+  /* display: flex; */
+
+}
+
+.footer-div{
+  display: flex;
+  margin: 0% 2.5% 0% 3%;
+  justify-content: space-between;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin:4rem;
+
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-right .col{
+  margin:4rem;
+}
+
+.footer-right li{
+  list-style: none;
+}
